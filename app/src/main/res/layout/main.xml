@@ -24,12 +24,15 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/hello" />
-    
+
+    <!--No label views point to this text field
+      This field should be deleted
     <EditText
         android:id="@+id/body"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:scrollbars="horizontal" />
+    -->
 
     <Button
         android:id="@+id/clear"

@@ -69,7 +69,7 @@ public class LonelyTwitterActivity extends Activity {
 		});
 
 
-		oldTweetsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+		/*oldTweetsList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 				Intent intent = new Intent(LonelyTwitterActivity.this, EditTweetActivity.class);
@@ -77,7 +77,7 @@ public class LonelyTwitterActivity extends Activity {
 				startActivity(intent);
 
 
-				/*public void onItemClick(AdapterView<?> adapterView,View view, int pos, long arg3){
+				public void onItemClick(AdapterView<?> adapterView,View view, int pos, long arg3){
 					Intent intent = new Intent(MainActivity.this, DisplayCounterAvtivity.class);
 					intent.putExtra("CounterName", Counters.get(pos).getName());
 					intent.putExtra("CounterDate", Counters.get(pos).getDate());
@@ -86,7 +86,7 @@ public class LonelyTwitterActivity extends Activity {
 					intent.putExtra("CounterComment", Counters.get(pos).getComment());
 					intent.putExtra("position", pos);
 					startActivityForResult(intent,1);
-				}*/
+				}
 
 
 
@@ -94,7 +94,7 @@ public class LonelyTwitterActivity extends Activity {
 
 
 			}
-		});
+		});*/
 	}
 
 	@Override

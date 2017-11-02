@@ -8,9 +8,9 @@ public class TweetList {
     public TweetList(){
 
     }
-
+    // actual value of parameter "index" is always 0
     public Tweet getTweet(int index){
-        return tweets.get(index);
+        return tweets.get(0);
     }
 
     public boolean hasTweet(Tweet tweet){
